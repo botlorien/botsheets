@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="botsheets",
-    version="0.1.0",
+    version="0.1.1",
     description='Class integrate with google sheets for RPA',
     author='Ben-Hur P. B. Santos',
     author_email='botlorien@gmail.com',
@@ -24,7 +24,8 @@ setup(
     install_requires=[
         'pandas',
         'gspread',
-        'oauth2client'
+        'oauth2client',
+        'botenv'
         ],
     )
 # pip install setuptools
